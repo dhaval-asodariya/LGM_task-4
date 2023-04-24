@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DM+Sans&family=Dancing+Script:wght@500&family=Fredoka&family=Kaushan+Script&family=Merriweather&family=Montserrat&family=Noto+Serif:ital@1&family=Outfit&family=Poppins&family=Sacramento&family=Vujahday+Script&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  /* background-image: url(calci.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  opacity: 0.8;
+  width: 35%;
+  /* height: 90vh; */
+  margin: 0 auto;
+  /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+   background:url(pattern-2.png);
+  display: flex;
+  flex-direction: column;
+/* border: 1px solid black; */
+
+}
+h2{
+  background: transparent !important;
+font-family: 'Kaushan Script', cursive;
+ text-align: center;
+ font-size: 35px;
+ border: none !important;
+ box-shadow: none !important;
+ margin-bottom: 0% !important;
+ padding: 0% !important;
+}
+h1 {
+  color: #060505;
+  text-align: center;
+  padding: 25px;
+}
+
+.calculator {
+  margin: 25px;
+  /* border: 1px solid #717377; */
+  padding: 15px;
+  border-radius: 12px;
+  /* background: transparent; */
+  /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+  background-color: aliceblue;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+  width: 320px;
+  border: 1px solid #717377;
+  border-radius: 3px;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(29, 29, 29, 0.1) !important;
+  /* box-shadow: 0 3px 10px black; */
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  /* color: #ffffff; */
+  color: #0a0a0a;
+}
+
+input::placeholder {
+ color: #0a0a0a;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 2px;
+  /* background: transparent; */
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -4px -4px 10px rgba(3, 3, 3, 0.1);
+  cursor: pointer;
+}
+
+.equalBtn {
+  /* background-color: #fb7c14; */
+  background-color: #6DA9E4;
+}
+
+.op {
+  /* color: #6dee0a; */
+  color: #fff;
+}
